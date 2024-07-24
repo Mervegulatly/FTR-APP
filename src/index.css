@@ -1,0 +1,80 @@
+.container {
+  color-scheme: light dark;
+  color: rgba(209, 33, 33, 0.87);
+}
+
+body {
+  margin: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+.h2 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.formGroup {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 0%;
+}
+
+
+.registerbutton {
+  display: flex;
+  flex-direction: column; /* İçeriği dikey olarak hizalar */
+  align-items: center; /* Kutu içeriğini yatayda ortalar */
+  justify-content: center; /* Kutu içeriğini dikeyde ortalar */
+  padding: 10px; /* Buton içindeki boşluk */
+  margin: 5px; /* Butonun etrafındaki boşluk */
+  border: 1px solid #3bc52f; /* Butonun kenarlığı */
+  border-radius: 5px; /* Butonun köşe yuvarlaklığı */
+  background-color: #741b97; /* Butonun arka plan rengi */
+  cursor: pointer; /* Butona tıklanabilirlik göstergeci */
+}
+
+.registerbutton .formGroup {
+  display: flex;
+  flex-direction: column; /* İçeriği dikey olarak hizalar */
+  align-items: stretch; /* Kutuları yatayda genişletir */
+  width: 100%; /* Form grup kutularının genişliği */
+  margin-bottom: 10px; /* Kutu altındaki boşluk */
+}
+
+.registerbutton .formGroup input {
+  padding: 10px; /* Kutu içindeki boşluk */
+  margin: 5px 0; /* Kutu arasındaki boşluk */
+  border: 1px solid #5c28af; /* Kutu kenarlığı */
+  border-radius: 5px; /* Kutu köşe yuvarlaklığı */
+  width: 100%; /* Genişlik ayarı */
+}
+
+.registerbutton .formGroup label {
+  margin-bottom: 5px; /* Etiket ile input arasındaki boşluk */
+  font-weight: bold; /* Etiket font ağırlığı */
+}
